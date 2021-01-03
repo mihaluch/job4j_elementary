@@ -1,10 +1,6 @@
 package ru.job4j.condition;
 
 public class AlertDivByZero {
-    public static void main(String[] args) {
-       possibleDiv(4);
-       possibleDiv(-5);
-    }
 
     public static void possibleDiv(int number) {
         if (number < 0) {
@@ -12,6 +8,7 @@ public class AlertDivByZero {
             }
         }
 
-
-
+        public static void main(String[] args) {
+            AlertDivByZero.possibleDiv(-6);
+        }
 }
