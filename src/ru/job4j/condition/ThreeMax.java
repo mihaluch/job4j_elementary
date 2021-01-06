@@ -2,9 +2,9 @@ package ru.job4j.condition;
 
 public class ThreeMax {
     public static int max(int first, int second, int third) {
-        int result = first;
+        int result = 0;
         if (first >= second && first >= third) {
-            result = first;
+             result = first;
         }
         if (second >= first && second >= third) {
             result = second;
@@ -16,7 +16,7 @@ public class ThreeMax {
     }
 
     public static void main(String[] args) {
-        System.out.println(max(7,5,4));
+        System.out.println(max(7, 5, 4));
 
     }
 }

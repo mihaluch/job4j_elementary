@@ -8,7 +8,5 @@ public class ArgMethod {
         String name = "Mikhail Lozovikov";
 
         ArgMethod.hello(name);
-
-
     }
 }

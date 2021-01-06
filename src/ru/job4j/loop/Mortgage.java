@@ -13,7 +13,4 @@ public class Mortgage {
         return year;
     }
 
-    public static void main(String[] args) {
-        Mortgage.year(100,70,10);
-    }
 }
