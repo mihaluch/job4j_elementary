@@ -12,7 +12,7 @@ public class Defragment {
                         //array[index] = temp;
                         array[point] = array[i];
                         array[i] = null;
-                        point = i;
+                        break;
                     }
                 }
             }
